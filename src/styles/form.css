@@ -1,0 +1,54 @@
+#cep-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #1e2124;
+    color: #ddd;
+    height: 100%;
+    width: 100%;
+    color: #ccc;
+}
+
+#cep-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#cep-form input {
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e3134;
+    color: #ccc;
+}
+
+#cep-form input:focus {
+    outline: none;
+}
+
+#cep-form input::placeholder {
+    color: #888;
+}
+
+#cep-form button {
+    background-color: #3e4144;
+    color: #ccc;
+    width: 200px;
+    height: 30px;
+
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+}
+
+#cep-form button:hover {
+    cursor: pointer;
+    background-color: #4e5154;
+}

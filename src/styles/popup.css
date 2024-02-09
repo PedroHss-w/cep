@@ -1,0 +1,29 @@
+.popup-box:hover {
+    cursor: default;
+}
+
+.popup-box {
+    height: 290px;
+    width: 280px;
+    background-color: #2e3134;
+    border-radius: 5px;
+    color: #ccc;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.popup-box .closeBttn {
+    color: #000;
+}
+
+.subHeader {
+    height: 30px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.subHeader h2 {
+    margin: 10px;
+}
