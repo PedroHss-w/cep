@@ -37,7 +37,7 @@ export default function CepForm(){
         <div id="cep-form" target="_parent">
             <h2>Insira um CEP valido:</h2>
             <input id="cep" name="cep" type="text" placeholder="00000000"></input>
-            <button type="button" className="verificar" onClick={()=>getCep()}>Verificar</button>
+            <button type="button" className="verificar" onClick={getCep}>Verificar</button>
             <Popup trigger={{
                     state: openPopup,
                     set: setOpenPopup
